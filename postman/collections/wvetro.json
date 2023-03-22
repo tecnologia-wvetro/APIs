@@ -1,0 +1,756 @@
+{
+	"info": {
+		"_postman_id": "7116d5bd-14bf-4f22-beb8-dc3032b36052",
+		"name": "wvetro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "10235856-7116d5bd-14bf-4f22-beb8-dc3032b36052"
+	},
+	"item": [
+		{
+			"name": "ListTitulosPagar",
+			"id": "b85e6417-e583-49bb-90fd-c1c37ec62fe7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/ListTitulosPagar?Dtvencimentoinicial=1978-10-13&Dtvencimentofinal=1978-10-13",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"ListTitulosPagar"
+					],
+					"query": [
+						{
+							"key": "Dtvencimentoinicial",
+							"value": "1978-10-13"
+						},
+						{
+							"key": "Dtvencimentofinal",
+							"value": "1978-10-13"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "0e995907-37bd-42fe-9b49-79ed0ed9befa",
+					"name": "Successful operation",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/ListTitulosPagar?Dtvencimentoinicial=1978-10-13&Dtvencimentofinal=1978-10-13",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"ListTitulosPagar"
+							],
+							"query": [
+								{
+									"key": "Dtvencimentoinicial",
+									"value": "1978-10-13"
+								},
+								{
+									"key": "Dtvencimentofinal",
+									"value": "1978-10-13"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n  {\n    \"TituloId\": 91212413,\n    \"TituloTipo\": \"et nostrud proident velit\",\n    \"PessoaRazao\": \"deserunt irure non incididunt ullamco\",\n    \"VendedorTituloNome\": \"\",\n    \"TituloReferencia\": \"id ullamco est sunt\",\n    \"TituloDocumento\": \"minim officia\",\n    \"TituloDtCadastro\": \"1977-01-20\",\n    \"TituloDtEmissao\": \"1974-09-02\",\n    \"TituloDtVencimento\": \"1948-08-14\",\n    \"GrupoCustoCodigo\": \"voluptate sit mollit\",\n    \"GrupoCustoDescricao\": \"esse sit aute\",\n    \"CentroCustoCodigo\": \"dolore Lorem elit anim et\",\n    \"CentroCustoDescricao\": \"deserunt enim exercitation\",\n    \"TituloVlrTitulo\": -11469724.162164584,\n    \"TituloDtBaixa\": \"1967-08-27\",\n    \"TituloVlrRecebido\": -18080040.208616003,\n    \"TituloVlrSaldo\": -73209219.9945754,\n    \"TituloEmitente\": \"in ut mollit tempor laborum\",\n    \"TituloObs\": \"proident amet tempor Ut \",\n    \"TituloTipoLancamento\": \"ipsum dolor dolore\",\n    \"TituloOrigem\": \"et proident pariatur reprehenderit\",\n    \"TituloNossoNumero\": \"dolore est cillum amet consequat\",\n    \"TituloPixTextContent\": \"eiusmod qui cillum irure\",\n    \"TituloPixPagoStatus\": \"nisi sint cupidatat\",\n    \"TituloPixPagoNome\": \"laboris sed\",\n    \"TituloVlrTaxaCartao\": 6690253.392967135,\n    \"ObraTituloNome\": \"dolore minim tempor exercitation\",\n    \"TituloUsuario\": \"in labore esse\",\n    \"DivisaoNome\": \"eiusmod culpa\",\n    \"TituloNroParc\": 95239556,\n    \"Error\": {\n      \"Id\": \"commodo cillum aliquip non dolore\",\n      \"MessageType\": 31287996,\n      \"Description\": \"velit\"\n    }\n  },\n  {\n    \"TituloId\": 82980527,\n    \"TituloTipo\": \"su\",\n    \"PessoaRazao\": \"consectetur\",\n    \"VendedorTituloNome\": \"anim occaecat laboris\",\n    \"TituloReferencia\": \"exercitation ut incididunt mollit\",\n    \"TituloDocumento\": \"ipsum proident nisi\",\n    \"TituloDtCadastro\": \"1984-08-07\",\n    \"TituloDtEmissao\": \"1964-10-02\",\n    \"TituloDtVencimento\": \"2002-01-15\",\n    \"GrupoCustoCodigo\": \"dolor cillum labore ullamco ipsum\",\n    \"GrupoCustoDescricao\": \"ea\",\n    \"CentroCustoCodigo\": \"Duis in\",\n    \"CentroCustoDescricao\": \"adipisicing magna occaecat qui ut\",\n    \"TituloVlrTitulo\": -27525349.01730752,\n    \"TituloDtBaixa\": \"2008-03-30\",\n    \"TituloVlrRecebido\": -96041232.22648728,\n    \"TituloVlrSaldo\": -96170380.23050597,\n    \"TituloEmitente\": \"Excepteur dolore\",\n    \"TituloObs\": \"laboris aliqua in\",\n    \"TituloTipoLancamento\": \"aliquip dolore adipisicing\",\n    \"TituloOrigem\": \"commodo voluptate deserunt ut\",\n    \"TituloNossoNumero\": \"reprehenderit esse\",\n    \"TituloPixTextContent\": \"dolore proident qui incididunt\",\n    \"TituloPixPagoStatus\": \"occaecat ullamco\",\n    \"TituloPixPagoNome\": \"do dolor\",\n    \"TituloVlrTaxaCartao\": 5807887.852909267,\n    \"ObraTituloNome\": \"sit amet ea dolore Excepteur\",\n    \"TituloUsuario\": \"ex proident id ut do\",\n    \"DivisaoNome\": \"Duis aliqua cillum\",\n    \"TituloNroParc\": -39572261,\n    \"Error\": {\n      \"Id\": \"minim nostrud Lorem incididunt Duis\",\n      \"MessageType\": -2173614,\n      \"Description\": \"laborum officia labore in\"\n    }\n  }\n]"
+				},
+				{
+					"id": "1a9f1b9d-56db-474e-8eca-a7073880a0a2",
+					"name": "Not found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/ListTitulosPagar?Dtvencimentoinicial=1978-10-13&Dtvencimentofinal=1978-10-13",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"ListTitulosPagar"
+							],
+							"query": [
+								{
+									"key": "Dtvencimentoinicial",
+									"value": "1978-10-13"
+								},
+								{
+									"key": "Dtvencimentofinal",
+									"value": "1978-10-13"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "ListTitulosReceber",
+			"id": "03c40d95-e768-4ec9-b666-5007204296c8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/ListTitulosReceber?Dtvencimentoinicial=1978-10-13&Dtvencimentofinal=1978-10-13",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"ListTitulosReceber"
+					],
+					"query": [
+						{
+							"key": "Dtvencimentoinicial",
+							"value": "1978-10-13"
+						},
+						{
+							"key": "Dtvencimentofinal",
+							"value": "1978-10-13"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "c8d1e1a7-e3df-4e13-b2f1-8e0bcc9bb7c2",
+					"name": "Successful operation",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/ListTitulosReceber?Dtvencimentoinicial=1978-10-13&Dtvencimentofinal=1978-10-13",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"ListTitulosReceber"
+							],
+							"query": [
+								{
+									"key": "Dtvencimentoinicial",
+									"value": "1978-10-13"
+								},
+								{
+									"key": "Dtvencimentofinal",
+									"value": "1978-10-13"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n  {\n    \"TituloId\": 91212413,\n    \"TituloTipo\": \"et nostrud proident velit\",\n    \"PessoaRazao\": \"deserunt irure non incididunt ullamco\",\n    \"VendedorTituloNome\": \"\",\n    \"TituloReferencia\": \"id ullamco est sunt\",\n    \"TituloDocumento\": \"minim officia\",\n    \"TituloDtCadastro\": \"1977-01-20\",\n    \"TituloDtEmissao\": \"1974-09-02\",\n    \"TituloDtVencimento\": \"1948-08-14\",\n    \"GrupoCustoCodigo\": \"voluptate sit mollit\",\n    \"GrupoCustoDescricao\": \"esse sit aute\",\n    \"CentroCustoCodigo\": \"dolore Lorem elit anim et\",\n    \"CentroCustoDescricao\": \"deserunt enim exercitation\",\n    \"TituloVlrTitulo\": -11469724.162164584,\n    \"TituloDtBaixa\": \"1967-08-27\",\n    \"TituloVlrRecebido\": -18080040.208616003,\n    \"TituloVlrSaldo\": -73209219.9945754,\n    \"TituloEmitente\": \"in ut mollit tempor laborum\",\n    \"TituloObs\": \"proident amet tempor Ut \",\n    \"TituloTipoLancamento\": \"ipsum dolor dolore\",\n    \"TituloOrigem\": \"et proident pariatur reprehenderit\",\n    \"TituloNossoNumero\": \"dolore est cillum amet consequat\",\n    \"TituloPixTextContent\": \"eiusmod qui cillum irure\",\n    \"TituloPixPagoStatus\": \"nisi sint cupidatat\",\n    \"TituloPixPagoNome\": \"laboris sed\",\n    \"TituloVlrTaxaCartao\": 6690253.392967135,\n    \"ObraTituloNome\": \"dolore minim tempor exercitation\",\n    \"TituloUsuario\": \"in labore esse\",\n    \"DivisaoNome\": \"eiusmod culpa\",\n    \"TituloNroParc\": 95239556,\n    \"Error\": {\n      \"Id\": \"commodo cillum aliquip non dolore\",\n      \"MessageType\": 31287996,\n      \"Description\": \"velit\"\n    }\n  },\n  {\n    \"TituloId\": 82980527,\n    \"TituloTipo\": \"su\",\n    \"PessoaRazao\": \"consectetur\",\n    \"VendedorTituloNome\": \"anim occaecat laboris\",\n    \"TituloReferencia\": \"exercitation ut incididunt mollit\",\n    \"TituloDocumento\": \"ipsum proident nisi\",\n    \"TituloDtCadastro\": \"1984-08-07\",\n    \"TituloDtEmissao\": \"1964-10-02\",\n    \"TituloDtVencimento\": \"2002-01-15\",\n    \"GrupoCustoCodigo\": \"dolor cillum labore ullamco ipsum\",\n    \"GrupoCustoDescricao\": \"ea\",\n    \"CentroCustoCodigo\": \"Duis in\",\n    \"CentroCustoDescricao\": \"adipisicing magna occaecat qui ut\",\n    \"TituloVlrTitulo\": -27525349.01730752,\n    \"TituloDtBaixa\": \"2008-03-30\",\n    \"TituloVlrRecebido\": -96041232.22648728,\n    \"TituloVlrSaldo\": -96170380.23050597,\n    \"TituloEmitente\": \"Excepteur dolore\",\n    \"TituloObs\": \"laboris aliqua in\",\n    \"TituloTipoLancamento\": \"aliquip dolore adipisicing\",\n    \"TituloOrigem\": \"commodo voluptate deserunt ut\",\n    \"TituloNossoNumero\": \"reprehenderit esse\",\n    \"TituloPixTextContent\": \"dolore proident qui incididunt\",\n    \"TituloPixPagoStatus\": \"occaecat ullamco\",\n    \"TituloPixPagoNome\": \"do dolor\",\n    \"TituloVlrTaxaCartao\": 5807887.852909267,\n    \"ObraTituloNome\": \"sit amet ea dolore Excepteur\",\n    \"TituloUsuario\": \"ex proident id ut do\",\n    \"DivisaoNome\": \"Duis aliqua cillum\",\n    \"TituloNroParc\": -39572261,\n    \"Error\": {\n      \"Id\": \"minim nostrud Lorem incididunt Duis\",\n      \"MessageType\": -2173614,\n      \"Description\": \"laborum officia labore in\"\n    }\n  }\n]"
+				},
+				{
+					"id": "d455be5d-8184-419e-b9f3-eccbbbd55ae6",
+					"name": "Not found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/ListTitulosReceber?Dtvencimentoinicial=1978-10-13&Dtvencimentofinal=1978-10-13",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"ListTitulosReceber"
+							],
+							"query": [
+								{
+									"key": "Dtvencimentoinicial",
+									"value": "1978-10-13"
+								},
+								{
+									"key": "Dtvencimentofinal",
+									"value": "1978-10-13"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "ListChequesTerceiro",
+			"id": "ed56295f-60eb-4b5f-a7e2-85f5c65e9aa7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/ListChequesTerceiro?Dtvencimentoinicial=1978-10-13&Dtvencimentofinal=1978-10-13",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"ListChequesTerceiro"
+					],
+					"query": [
+						{
+							"key": "Dtvencimentoinicial",
+							"value": "1978-10-13"
+						},
+						{
+							"key": "Dtvencimentofinal",
+							"value": "1978-10-13"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "fa7fd625-39a4-4b26-a3ca-49a21ed0b644",
+					"name": "Successful operation",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/ListChequesTerceiro?Dtvencimentoinicial=1978-10-13&Dtvencimentofinal=1978-10-13",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"ListChequesTerceiro"
+							],
+							"query": [
+								{
+									"key": "Dtvencimentoinicial",
+									"value": "1978-10-13"
+								},
+								{
+									"key": "Dtvencimentofinal",
+									"value": "1978-10-13"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n  {\n    \"TituloId\": 91212413,\n    \"TituloTipo\": \"et nostrud proident velit\",\n    \"PessoaRazao\": \"deserunt irure non incididunt ullamco\",\n    \"VendedorTituloNome\": \"\",\n    \"TituloReferencia\": \"id ullamco est sunt\",\n    \"TituloDocumento\": \"minim officia\",\n    \"TituloDtCadastro\": \"1977-01-20\",\n    \"TituloDtEmissao\": \"1974-09-02\",\n    \"TituloDtVencimento\": \"1948-08-14\",\n    \"GrupoCustoCodigo\": \"voluptate sit mollit\",\n    \"GrupoCustoDescricao\": \"esse sit aute\",\n    \"CentroCustoCodigo\": \"dolore Lorem elit anim et\",\n    \"CentroCustoDescricao\": \"deserunt enim exercitation\",\n    \"TituloVlrTitulo\": -11469724.162164584,\n    \"TituloDtBaixa\": \"1967-08-27\",\n    \"TituloVlrRecebido\": -18080040.208616003,\n    \"TituloVlrSaldo\": -73209219.9945754,\n    \"TituloEmitente\": \"in ut mollit tempor laborum\",\n    \"TituloObs\": \"proident amet tempor Ut \",\n    \"TituloTipoLancamento\": \"ipsum dolor dolore\",\n    \"TituloOrigem\": \"et proident pariatur reprehenderit\",\n    \"TituloNossoNumero\": \"dolore est cillum amet consequat\",\n    \"TituloPixTextContent\": \"eiusmod qui cillum irure\",\n    \"TituloPixPagoStatus\": \"nisi sint cupidatat\",\n    \"TituloPixPagoNome\": \"laboris sed\",\n    \"TituloVlrTaxaCartao\": 6690253.392967135,\n    \"ObraTituloNome\": \"dolore minim tempor exercitation\",\n    \"TituloUsuario\": \"in labore esse\",\n    \"DivisaoNome\": \"eiusmod culpa\",\n    \"TituloNroParc\": 95239556,\n    \"Error\": {\n      \"Id\": \"commodo cillum aliquip non dolore\",\n      \"MessageType\": 31287996,\n      \"Description\": \"velit\"\n    }\n  },\n  {\n    \"TituloId\": 82980527,\n    \"TituloTipo\": \"su\",\n    \"PessoaRazao\": \"consectetur\",\n    \"VendedorTituloNome\": \"anim occaecat laboris\",\n    \"TituloReferencia\": \"exercitation ut incididunt mollit\",\n    \"TituloDocumento\": \"ipsum proident nisi\",\n    \"TituloDtCadastro\": \"1984-08-07\",\n    \"TituloDtEmissao\": \"1964-10-02\",\n    \"TituloDtVencimento\": \"2002-01-15\",\n    \"GrupoCustoCodigo\": \"dolor cillum labore ullamco ipsum\",\n    \"GrupoCustoDescricao\": \"ea\",\n    \"CentroCustoCodigo\": \"Duis in\",\n    \"CentroCustoDescricao\": \"adipisicing magna occaecat qui ut\",\n    \"TituloVlrTitulo\": -27525349.01730752,\n    \"TituloDtBaixa\": \"2008-03-30\",\n    \"TituloVlrRecebido\": -96041232.22648728,\n    \"TituloVlrSaldo\": -96170380.23050597,\n    \"TituloEmitente\": \"Excepteur dolore\",\n    \"TituloObs\": \"laboris aliqua in\",\n    \"TituloTipoLancamento\": \"aliquip dolore adipisicing\",\n    \"TituloOrigem\": \"commodo voluptate deserunt ut\",\n    \"TituloNossoNumero\": \"reprehenderit esse\",\n    \"TituloPixTextContent\": \"dolore proident qui incididunt\",\n    \"TituloPixPagoStatus\": \"occaecat ullamco\",\n    \"TituloPixPagoNome\": \"do dolor\",\n    \"TituloVlrTaxaCartao\": 5807887.852909267,\n    \"ObraTituloNome\": \"sit amet ea dolore Excepteur\",\n    \"TituloUsuario\": \"ex proident id ut do\",\n    \"DivisaoNome\": \"Duis aliqua cillum\",\n    \"TituloNroParc\": -39572261,\n    \"Error\": {\n      \"Id\": \"minim nostrud Lorem incididunt Duis\",\n      \"MessageType\": -2173614,\n      \"Description\": \"laborum officia labore in\"\n    }\n  }\n]"
+				},
+				{
+					"id": "f1e89474-20e5-48a1-a81f-18afd4f6ef8c",
+					"name": "Not found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/ListChequesTerceiro?Dtvencimentoinicial=1978-10-13&Dtvencimentofinal=1978-10-13",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"ListChequesTerceiro"
+							],
+							"query": [
+								{
+									"key": "Dtvencimentoinicial",
+									"value": "1978-10-13"
+								},
+								{
+									"key": "Dtvencimentofinal",
+									"value": "1978-10-13"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "ListTitulosPagos",
+			"id": "c9748e56-7be8-41ab-89cb-0481e1d52ec3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/ListTitulosPagos?Dtbaixainicial=1978-10-13&Dtbaixafinal=1978-10-13",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"ListTitulosPagos"
+					],
+					"query": [
+						{
+							"key": "Dtbaixainicial",
+							"value": "1978-10-13"
+						},
+						{
+							"key": "Dtbaixafinal",
+							"value": "1978-10-13"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "d8fb07bc-d262-4e36-84e4-1e3f6ab9b9df",
+					"name": "Successful operation",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/ListTitulosPagos?Dtbaixainicial=1978-10-13&Dtbaixafinal=1978-10-13",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"ListTitulosPagos"
+							],
+							"query": [
+								{
+									"key": "Dtbaixainicial",
+									"value": "1978-10-13"
+								},
+								{
+									"key": "Dtbaixafinal",
+									"value": "1978-10-13"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n  {\n    \"TituloId\": 91212413,\n    \"TituloTipo\": \"et nostrud proident velit\",\n    \"PessoaRazao\": \"deserunt irure non incididunt ullamco\",\n    \"VendedorTituloNome\": \"\",\n    \"TituloReferencia\": \"id ullamco est sunt\",\n    \"TituloDocumento\": \"minim officia\",\n    \"TituloDtCadastro\": \"1977-01-20\",\n    \"TituloDtEmissao\": \"1974-09-02\",\n    \"TituloDtVencimento\": \"1948-08-14\",\n    \"GrupoCustoCodigo\": \"voluptate sit mollit\",\n    \"GrupoCustoDescricao\": \"esse sit aute\",\n    \"CentroCustoCodigo\": \"dolore Lorem elit anim et\",\n    \"CentroCustoDescricao\": \"deserunt enim exercitation\",\n    \"TituloVlrTitulo\": -11469724.162164584,\n    \"TituloDtBaixa\": \"1967-08-27\",\n    \"TituloVlrRecebido\": -18080040.208616003,\n    \"TituloVlrSaldo\": -73209219.9945754,\n    \"TituloEmitente\": \"in ut mollit tempor laborum\",\n    \"TituloObs\": \"proident amet tempor Ut \",\n    \"TituloTipoLancamento\": \"ipsum dolor dolore\",\n    \"TituloOrigem\": \"et proident pariatur reprehenderit\",\n    \"TituloNossoNumero\": \"dolore est cillum amet consequat\",\n    \"TituloPixTextContent\": \"eiusmod qui cillum irure\",\n    \"TituloPixPagoStatus\": \"nisi sint cupidatat\",\n    \"TituloPixPagoNome\": \"laboris sed\",\n    \"TituloVlrTaxaCartao\": 6690253.392967135,\n    \"ObraTituloNome\": \"dolore minim tempor exercitation\",\n    \"TituloUsuario\": \"in labore esse\",\n    \"DivisaoNome\": \"eiusmod culpa\",\n    \"TituloNroParc\": 95239556,\n    \"Error\": {\n      \"Id\": \"commodo cillum aliquip non dolore\",\n      \"MessageType\": 31287996,\n      \"Description\": \"velit\"\n    }\n  },\n  {\n    \"TituloId\": 82980527,\n    \"TituloTipo\": \"su\",\n    \"PessoaRazao\": \"consectetur\",\n    \"VendedorTituloNome\": \"anim occaecat laboris\",\n    \"TituloReferencia\": \"exercitation ut incididunt mollit\",\n    \"TituloDocumento\": \"ipsum proident nisi\",\n    \"TituloDtCadastro\": \"1984-08-07\",\n    \"TituloDtEmissao\": \"1964-10-02\",\n    \"TituloDtVencimento\": \"2002-01-15\",\n    \"GrupoCustoCodigo\": \"dolor cillum labore ullamco ipsum\",\n    \"GrupoCustoDescricao\": \"ea\",\n    \"CentroCustoCodigo\": \"Duis in\",\n    \"CentroCustoDescricao\": \"adipisicing magna occaecat qui ut\",\n    \"TituloVlrTitulo\": -27525349.01730752,\n    \"TituloDtBaixa\": \"2008-03-30\",\n    \"TituloVlrRecebido\": -96041232.22648728,\n    \"TituloVlrSaldo\": -96170380.23050597,\n    \"TituloEmitente\": \"Excepteur dolore\",\n    \"TituloObs\": \"laboris aliqua in\",\n    \"TituloTipoLancamento\": \"aliquip dolore adipisicing\",\n    \"TituloOrigem\": \"commodo voluptate deserunt ut\",\n    \"TituloNossoNumero\": \"reprehenderit esse\",\n    \"TituloPixTextContent\": \"dolore proident qui incididunt\",\n    \"TituloPixPagoStatus\": \"occaecat ullamco\",\n    \"TituloPixPagoNome\": \"do dolor\",\n    \"TituloVlrTaxaCartao\": 5807887.852909267,\n    \"ObraTituloNome\": \"sit amet ea dolore Excepteur\",\n    \"TituloUsuario\": \"ex proident id ut do\",\n    \"DivisaoNome\": \"Duis aliqua cillum\",\n    \"TituloNroParc\": -39572261,\n    \"Error\": {\n      \"Id\": \"minim nostrud Lorem incididunt Duis\",\n      \"MessageType\": -2173614,\n      \"Description\": \"laborum officia labore in\"\n    }\n  }\n]"
+				},
+				{
+					"id": "66a02a0d-2e42-4e45-95c6-6eb54fa785bd",
+					"name": "Not found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/ListTitulosPagos?Dtbaixainicial=1978-10-13&Dtbaixafinal=1978-10-13",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"ListTitulosPagos"
+							],
+							"query": [
+								{
+									"key": "Dtbaixainicial",
+									"value": "1978-10-13"
+								},
+								{
+									"key": "Dtbaixafinal",
+									"value": "1978-10-13"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "ListTitulosRecebidos",
+			"id": "356d898b-e6b2-47ac-a25c-44c7a7b83628",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/ListTitulosRecebidos?Dtbaixainicial=1978-10-13&Dtbaixafinal=1978-10-13",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"ListTitulosRecebidos"
+					],
+					"query": [
+						{
+							"key": "Dtbaixainicial",
+							"value": "1978-10-13"
+						},
+						{
+							"key": "Dtbaixafinal",
+							"value": "1978-10-13"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "6a4bde5a-7347-47ab-8a7c-6252dced072c",
+					"name": "Successful operation",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/ListTitulosRecebidos?Dtbaixainicial=1978-10-13&Dtbaixafinal=1978-10-13",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"ListTitulosRecebidos"
+							],
+							"query": [
+								{
+									"key": "Dtbaixainicial",
+									"value": "1978-10-13"
+								},
+								{
+									"key": "Dtbaixafinal",
+									"value": "1978-10-13"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n  {\n    \"TituloId\": 91212413,\n    \"TituloTipo\": \"et nostrud proident velit\",\n    \"PessoaRazao\": \"deserunt irure non incididunt ullamco\",\n    \"VendedorTituloNome\": \"\",\n    \"TituloReferencia\": \"id ullamco est sunt\",\n    \"TituloDocumento\": \"minim officia\",\n    \"TituloDtCadastro\": \"1977-01-20\",\n    \"TituloDtEmissao\": \"1974-09-02\",\n    \"TituloDtVencimento\": \"1948-08-14\",\n    \"GrupoCustoCodigo\": \"voluptate sit mollit\",\n    \"GrupoCustoDescricao\": \"esse sit aute\",\n    \"CentroCustoCodigo\": \"dolore Lorem elit anim et\",\n    \"CentroCustoDescricao\": \"deserunt enim exercitation\",\n    \"TituloVlrTitulo\": -11469724.162164584,\n    \"TituloDtBaixa\": \"1967-08-27\",\n    \"TituloVlrRecebido\": -18080040.208616003,\n    \"TituloVlrSaldo\": -73209219.9945754,\n    \"TituloEmitente\": \"in ut mollit tempor laborum\",\n    \"TituloObs\": \"proident amet tempor Ut \",\n    \"TituloTipoLancamento\": \"ipsum dolor dolore\",\n    \"TituloOrigem\": \"et proident pariatur reprehenderit\",\n    \"TituloNossoNumero\": \"dolore est cillum amet consequat\",\n    \"TituloPixTextContent\": \"eiusmod qui cillum irure\",\n    \"TituloPixPagoStatus\": \"nisi sint cupidatat\",\n    \"TituloPixPagoNome\": \"laboris sed\",\n    \"TituloVlrTaxaCartao\": 6690253.392967135,\n    \"ObraTituloNome\": \"dolore minim tempor exercitation\",\n    \"TituloUsuario\": \"in labore esse\",\n    \"DivisaoNome\": \"eiusmod culpa\",\n    \"TituloNroParc\": 95239556,\n    \"Error\": {\n      \"Id\": \"commodo cillum aliquip non dolore\",\n      \"MessageType\": 31287996,\n      \"Description\": \"velit\"\n    }\n  },\n  {\n    \"TituloId\": 82980527,\n    \"TituloTipo\": \"su\",\n    \"PessoaRazao\": \"consectetur\",\n    \"VendedorTituloNome\": \"anim occaecat laboris\",\n    \"TituloReferencia\": \"exercitation ut incididunt mollit\",\n    \"TituloDocumento\": \"ipsum proident nisi\",\n    \"TituloDtCadastro\": \"1984-08-07\",\n    \"TituloDtEmissao\": \"1964-10-02\",\n    \"TituloDtVencimento\": \"2002-01-15\",\n    \"GrupoCustoCodigo\": \"dolor cillum labore ullamco ipsum\",\n    \"GrupoCustoDescricao\": \"ea\",\n    \"CentroCustoCodigo\": \"Duis in\",\n    \"CentroCustoDescricao\": \"adipisicing magna occaecat qui ut\",\n    \"TituloVlrTitulo\": -27525349.01730752,\n    \"TituloDtBaixa\": \"2008-03-30\",\n    \"TituloVlrRecebido\": -96041232.22648728,\n    \"TituloVlrSaldo\": -96170380.23050597,\n    \"TituloEmitente\": \"Excepteur dolore\",\n    \"TituloObs\": \"laboris aliqua in\",\n    \"TituloTipoLancamento\": \"aliquip dolore adipisicing\",\n    \"TituloOrigem\": \"commodo voluptate deserunt ut\",\n    \"TituloNossoNumero\": \"reprehenderit esse\",\n    \"TituloPixTextContent\": \"dolore proident qui incididunt\",\n    \"TituloPixPagoStatus\": \"occaecat ullamco\",\n    \"TituloPixPagoNome\": \"do dolor\",\n    \"TituloVlrTaxaCartao\": 5807887.852909267,\n    \"ObraTituloNome\": \"sit amet ea dolore Excepteur\",\n    \"TituloUsuario\": \"ex proident id ut do\",\n    \"DivisaoNome\": \"Duis aliqua cillum\",\n    \"TituloNroParc\": -39572261,\n    \"Error\": {\n      \"Id\": \"minim nostrud Lorem incididunt Duis\",\n      \"MessageType\": -2173614,\n      \"Description\": \"laborum officia labore in\"\n    }\n  }\n]"
+				},
+				{
+					"id": "3be31746-aa27-437d-9baf-30a44a6d8102",
+					"name": "Not found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/ListTitulosRecebidos?Dtbaixainicial=1978-10-13&Dtbaixafinal=1978-10-13",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"ListTitulosRecebidos"
+							],
+							"query": [
+								{
+									"key": "Dtbaixainicial",
+									"value": "1978-10-13"
+								},
+								{
+									"key": "Dtbaixafinal",
+									"value": "1978-10-13"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "ListChequesTerceiroRecebidos",
+			"id": "6466cfd4-7010-45d9-af4e-9a7291d94e0d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/ListChequesTerceiroRecebidos?Dtbaixainicial=1978-10-13&Dtbaixafinal=1978-10-13",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"ListChequesTerceiroRecebidos"
+					],
+					"query": [
+						{
+							"key": "Dtbaixainicial",
+							"value": "1978-10-13"
+						},
+						{
+							"key": "Dtbaixafinal",
+							"value": "1978-10-13"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "a686a217-cb5a-4864-acc5-01e1704ab1d5",
+					"name": "Successful operation",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/ListChequesTerceiroRecebidos?Dtbaixainicial=1978-10-13&Dtbaixafinal=1978-10-13",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"ListChequesTerceiroRecebidos"
+							],
+							"query": [
+								{
+									"key": "Dtbaixainicial",
+									"value": "1978-10-13"
+								},
+								{
+									"key": "Dtbaixafinal",
+									"value": "1978-10-13"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n  {\n    \"TituloId\": 91212413,\n    \"TituloTipo\": \"et nostrud proident velit\",\n    \"PessoaRazao\": \"deserunt irure non incididunt ullamco\",\n    \"VendedorTituloNome\": \"\",\n    \"TituloReferencia\": \"id ullamco est sunt\",\n    \"TituloDocumento\": \"minim officia\",\n    \"TituloDtCadastro\": \"1977-01-20\",\n    \"TituloDtEmissao\": \"1974-09-02\",\n    \"TituloDtVencimento\": \"1948-08-14\",\n    \"GrupoCustoCodigo\": \"voluptate sit mollit\",\n    \"GrupoCustoDescricao\": \"esse sit aute\",\n    \"CentroCustoCodigo\": \"dolore Lorem elit anim et\",\n    \"CentroCustoDescricao\": \"deserunt enim exercitation\",\n    \"TituloVlrTitulo\": -11469724.162164584,\n    \"TituloDtBaixa\": \"1967-08-27\",\n    \"TituloVlrRecebido\": -18080040.208616003,\n    \"TituloVlrSaldo\": -73209219.9945754,\n    \"TituloEmitente\": \"in ut mollit tempor laborum\",\n    \"TituloObs\": \"proident amet tempor Ut \",\n    \"TituloTipoLancamento\": \"ipsum dolor dolore\",\n    \"TituloOrigem\": \"et proident pariatur reprehenderit\",\n    \"TituloNossoNumero\": \"dolore est cillum amet consequat\",\n    \"TituloPixTextContent\": \"eiusmod qui cillum irure\",\n    \"TituloPixPagoStatus\": \"nisi sint cupidatat\",\n    \"TituloPixPagoNome\": \"laboris sed\",\n    \"TituloVlrTaxaCartao\": 6690253.392967135,\n    \"ObraTituloNome\": \"dolore minim tempor exercitation\",\n    \"TituloUsuario\": \"in labore esse\",\n    \"DivisaoNome\": \"eiusmod culpa\",\n    \"TituloNroParc\": 95239556,\n    \"Error\": {\n      \"Id\": \"commodo cillum aliquip non dolore\",\n      \"MessageType\": 31287996,\n      \"Description\": \"velit\"\n    }\n  },\n  {\n    \"TituloId\": 82980527,\n    \"TituloTipo\": \"su\",\n    \"PessoaRazao\": \"consectetur\",\n    \"VendedorTituloNome\": \"anim occaecat laboris\",\n    \"TituloReferencia\": \"exercitation ut incididunt mollit\",\n    \"TituloDocumento\": \"ipsum proident nisi\",\n    \"TituloDtCadastro\": \"1984-08-07\",\n    \"TituloDtEmissao\": \"1964-10-02\",\n    \"TituloDtVencimento\": \"2002-01-15\",\n    \"GrupoCustoCodigo\": \"dolor cillum labore ullamco ipsum\",\n    \"GrupoCustoDescricao\": \"ea\",\n    \"CentroCustoCodigo\": \"Duis in\",\n    \"CentroCustoDescricao\": \"adipisicing magna occaecat qui ut\",\n    \"TituloVlrTitulo\": -27525349.01730752,\n    \"TituloDtBaixa\": \"2008-03-30\",\n    \"TituloVlrRecebido\": -96041232.22648728,\n    \"TituloVlrSaldo\": -96170380.23050597,\n    \"TituloEmitente\": \"Excepteur dolore\",\n    \"TituloObs\": \"laboris aliqua in\",\n    \"TituloTipoLancamento\": \"aliquip dolore adipisicing\",\n    \"TituloOrigem\": \"commodo voluptate deserunt ut\",\n    \"TituloNossoNumero\": \"reprehenderit esse\",\n    \"TituloPixTextContent\": \"dolore proident qui incididunt\",\n    \"TituloPixPagoStatus\": \"occaecat ullamco\",\n    \"TituloPixPagoNome\": \"do dolor\",\n    \"TituloVlrTaxaCartao\": 5807887.852909267,\n    \"ObraTituloNome\": \"sit amet ea dolore Excepteur\",\n    \"TituloUsuario\": \"ex proident id ut do\",\n    \"DivisaoNome\": \"Duis aliqua cillum\",\n    \"TituloNroParc\": -39572261,\n    \"Error\": {\n      \"Id\": \"minim nostrud Lorem incididunt Duis\",\n      \"MessageType\": -2173614,\n      \"Description\": \"laborum officia labore in\"\n    }\n  }\n]"
+				},
+				{
+					"id": "69fefecf-8a20-4cac-9b93-521cf3764e39",
+					"name": "Not found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/ListChequesTerceiroRecebidos?Dtbaixainicial=1978-10-13&Dtbaixafinal=1978-10-13",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"ListChequesTerceiroRecebidos"
+							],
+							"query": [
+								{
+									"key": "Dtbaixainicial",
+									"value": "1978-10-13"
+								},
+								{
+									"key": "Dtbaixafinal",
+									"value": "1978-10-13"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"id": "5643505f-6fad-4288-b533-dba81daa2890",
+			"key": "baseUrl",
+			"value": "http://localhost:8080/wvetroJava/API/Financeiro",
+			"type": "string"
+		}
+	]
+}

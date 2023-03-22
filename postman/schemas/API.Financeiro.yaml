@@ -1,0 +1,332 @@
+openapi: 3.0.0
+info:
+  title: "wvetro"
+  version: "20230306124459"
+servers:
+  - url: https://developer.wvetro.com.br/wvetro17/API/Financeiro
+paths:
+  /ListTitulosPagar:
+    get:
+      tags:
+        - API  
+      operationId: "API.Financeiro.ListTitulosPagar"
+      summary: "ListTitulosPagar"
+      parameters:
+        - name: "Dtvencimentoinicial"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+        - name: "Dtvencimentofinal"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+      
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/WVetro.SDTTitulos_Titulo"  
+
+        404:
+          description: "Not found"
+
+  /ListTitulosReceber:
+    get:
+      tags:
+        - API  
+      operationId: "API.Financeiro.ListTitulosReceber"
+      summary: "ListTitulosReceber"
+      parameters:
+        - name: "Dtvencimentoinicial"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+        - name: "Dtvencimentofinal"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+      
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/WVetro.SDTTitulos_Titulo"  
+
+        404:
+          description: "Not found"
+
+  /ListChequesTerceiro:
+    get:
+      tags:
+        - API  
+      operationId: "API.Financeiro.ListChequesTerceiro"
+      summary: "ListChequesTerceiro"
+      parameters:
+        - name: "Dtvencimentoinicial"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+        - name: "Dtvencimentofinal"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+      
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/WVetro.SDTTitulos_Titulo"  
+
+        404:
+          description: "Not found"
+
+  /ListTitulosPagos:
+    get:
+      tags:
+        - API  
+      operationId: "API.Financeiro.ListTitulosPagos"
+      summary: "ListTitulosPagos"
+      parameters:
+        - name: "Dtbaixainicial"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+        - name: "Dtbaixafinal"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+      
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/WVetro.SDTTitulos_Titulo"  
+
+        404:
+          description: "Not found"
+
+  /ListTitulosRecebidos:
+    get:
+      tags:
+        - API  
+      operationId: "API.Financeiro.ListTitulosRecebidos"
+      summary: "ListTitulosRecebidos"
+      parameters:
+        - name: "Dtbaixainicial"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+        - name: "Dtbaixafinal"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+      
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/WVetro.SDTTitulos_Titulo"  
+
+        404:
+          description: "Not found"
+
+  /ListChequesTerceiroRecebidos:
+    get:
+      tags:
+        - API  
+      operationId: "API.Financeiro.ListChequesTerceiroRecebidos"
+      summary: "ListChequesTerceiroRecebidos"
+      parameters:
+        - name: "Dtbaixainicial"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+        - name: "Dtbaixafinal"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+      
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/WVetro.SDTTitulos_Titulo"  
+
+        404:
+          description: "Not found"
+
+components:
+  schemas:
+  
+    WVetro.SDTTitulos_Titulo:
+      properties:
+        TituloId:
+          description: Nro.Titulo
+          type: "integer"
+          format: "int64"
+        TituloTipo:
+          description: Tipo
+          type: "string"
+        PessoaRazao:
+          description: Razão
+          type: "string"
+        VendedorTituloNome:
+          description: Nome Vendedor
+          type: "string"
+        TituloReferencia:
+          description: Referencia
+          type: "string"
+        TituloDocumento:
+          description: Titulo Documento
+          type: "string"
+        TituloDtCadastro:
+          description: Titulo Dt Cadastro
+          type: "string"
+          format: "date"
+        TituloDtEmissao:
+          description: Titulo Dt Emissao
+          type: "string"
+          format: "date"
+        TituloDtVencimento:
+          description: Titulo Dt Vencimento
+          type: "string"
+          format: "date"
+        GrupoCustoCodigo:
+          description: Código
+          type: "string"
+        GrupoCustoDescricao:
+          description: Descr.Grupo
+          type: "string"
+        CentroCustoCodigo:
+          description: Codigo
+          type: "string"
+        CentroCustoDescricao:
+          description: Descrição
+          type: "string"
+        TituloVlrTitulo:
+          description: Vlr.Titulo
+          type: "number"
+          format: "double"
+        TituloDtBaixa:
+          description: Dt.Baixa
+          type: "string"
+          format: "date"
+        TituloVlrRecebido:
+          description: Vlr.Recebido
+          type: "number"
+          format: "double"
+        TituloVlrSaldo:
+          description: Vlr.Saldo
+          type: "number"
+          format: "double"
+        TituloEmitente:
+          description: Emitente
+          type: "string"
+        TituloObs:
+          description: Observações
+          type: "string"
+        TituloTipoLancamento:
+          description: Titulo Tipo Lancamento
+          type: "string"
+        TituloOrigem:
+          description: Origem
+          type: "string"
+        TituloNossoNumero:
+          description: Nosso Número
+          type: "string"
+        TituloPixTextContent:
+          description: Text Content
+          type: "string"
+        TituloPixPagoStatus:
+          description: Status
+          type: "string"
+        TituloPixPagoNome:
+          description: Nome
+          type: "string"
+        TituloVlrTaxaCartao:
+          description: Vlr Taxa Bancária
+          type: "number"
+          format: "double"
+        ObraTituloNome:
+          description: Obra
+          type: "string"
+        TituloUsuario:
+          description: Usuário
+          type: "string"
+        DivisaoNome:
+          description: Nome
+          type: "string"
+        TituloNroParc:
+          description: Nro Parcela
+          type: "integer"
+          format: "int64"
+
+        Error:
+          $ref: "#/components/schemas/WVetro.SDTTitulos.Error"
+
+
+    WVetro.SDTTitulos.Error:
+      properties:
+        Id:
+          description: Id
+          type: "string"
+        MessageType:
+          description: Message Type
+          type: "integer"
+          format: "int32"
+        Description:
+          description: Description
+          type: "string"
+
+
+      x-gx-level: "SDTTitulos"
+
+
